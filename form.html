@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>USer Form</title>
+    </head>
+    <body>
+        <form method="GET" action="backendurl">
+            <fieldset>
+                <legend>personal Info</legend>
+            <input type="text" placeholder="enter username" size="100" value="praveen" disabled required/>
+            <input type="password" placeholder="enter password"/>
+            <input type="email" placeholder="enter your email"/>
+            <input type="number" placeholder="enter age" /> 
+            <br/>
+            <input type="checkbox" name="Maths" disabled checked> Maths
+            <input type="checkbox" name="Physcis">Physcis
+            <input type="checkbox" name="Social">Social
+            <textarea rows="5" clols="10"> enter description</textarea>
+            <label>Gender:</label>
+            <input type="radio" name="gender" checked> Male
+            <input type="radio" name="gender">Female
+            <input type="date"/>
+            <input type="file"/>
+            <!--<input type="image" src="./UNADJUSTEDNONRAW_thumb_16b.jpg"/>-->
+            <input type="search"/>
+            <input type="tel"/>
+            <input type="time"/>
+            <input type="url"/>
+            <input type="week"/>
+            <input type="range" min="0" max="50" step="10"/><br/>
+            Choose Country:
+            <select>
+                <option>IND</option>
+                <option selected>USA</option>
+                <option>AUS</option>
+                <option>GER</option>
+                <option>UK</option>
+            </select>
+            <input type="submit" value="signup"/>
+            </fieldset>
+        </form>
+    </body>
+    </html>
+<!--
+    fornt end - we can collect the user information - validations 
+    backeend - verfies the data - has crct or data - already created or not 
+    data base - store the data 
+
+    if you see the backend - you know all the machenism 
+    username and pwd - seciruty threat 
+
+    actual urls 
+
+    reverse proxy - 10.0.0.103 - verffies if you pass everything - redirect
+    username and pwd requesturl - 10.0.0.012  certifictaions - https 
+
+    backend url - 10.0.0.105 - url  10.0.0.102 username and pwd - verifies and send the response 
+
+   10.0.0.102 - response 
+   login - school website 10.0.0.102
+
+   javascript - frontend , backend, mobile apps - plugins 
+   ide - 
+   login page - username and pwd when you submit - 10.0.0.103 username & pwd
+   if i am giving wrong username and pwd error
+   form method - post pass the data 
+   backend my application will be running to verify the username and pwd 
+
+   10.0.0.102 . 10.0.0.103/login
+
+
+    AJAX - asynchrolnous javascript and xml
+    GET - getting info from the backend
+    POST - signup
+    PUT - update call
+    DELETE - delete your record
+
+    html - static pages 
+    css - styling purpose 
+    javascript - dynamic page 
+-->
