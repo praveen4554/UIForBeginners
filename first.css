@@ -1,0 +1,13 @@
+ *{
+            color: blue;
+        }
+          header {
+              color: red;
+              background-color: blue;
+          }
+          .headerClass {
+              color: green;
+          }
+          #headerId {
+              color: black;
+          }
