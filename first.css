@@ -34,10 +34,46 @@
             margin-left: 100px;
             padding: 100px;
         }
-        /*
-        box model -  section - content - padding - border - margin
-        body - height 200px
-        element width = width + padding-left+padding-right+margin-left+margin-right+border-let+border-right
-          300+200+200+40+40+1+1 =782px 
-        element height =
-        */
+        .test {
+            width: 100px;
+            height:120px;
+            margin-left: 1px;
+            margin-top: 3px;
+            margin-bottom: 4px;
+            padding-top: 2px;
+            padding-bottom: 3px;
+            font-weight: 800;
+    font-size: 50px;
+    font-family: cursive;
+    font-stretch: semi-condensed;
+        }
+
+        section {
+            display: inline-block;
+            width:300px;
+            border: 1px solid;
+            height: 200px;
+            overflow: auto;
+
+        }
+        span {
+            display: block;
+            cursor: move;
+        }
+       /*
+       .test
+       width = 118 (100+1+2+1+2+5+7) - x- axis
+       height = 157 (120+3+4+3+4+2+3) - 139
+                139
+                width = 100+1+0+0+0+0+0 = 101
+                height = 120+3+4+2+3+0+0 = 132
+                webpage 
+                1 html it should be displayed in all the devices
+                like mobile
+                tablet
+                desktop
+        SEo - search engine optimization
+        page ranking 
+        bofa -
+
+       */
