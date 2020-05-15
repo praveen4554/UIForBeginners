@@ -11,3 +11,33 @@
           #headerId {
               color: black;
           }
+
+        /*.test {
+            background-color: aqua;
+            background-image: url("./test.jpg");
+            background-repeat: no-repeat;
+            height: 100px;
+            background-position: 100px;
+            background: url("./test.jpg") 0px 50px no-repeat fixed;
+        }*/
+        .test {
+            border: 1px solid green;
+            margin: 40px;
+            padding:200px;
+            width:300px;
+            height: 300px;
+        }
+        .sign {
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            margin-left: 100px;
+            padding: 100px;
+        }
+        /*
+        box model -  section - content - padding - border - margin
+        body - height 200px
+        element width = width + padding-left+padding-right+margin-left+margin-right+border-let+border-right
+          300+200+200+40+40+1+1 =782px 
+        element height =
+        */
