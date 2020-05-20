@@ -1,4 +1,4 @@
- *{
+ /**{
             color: blue;
         }
           header {
@@ -19,7 +19,7 @@
             height: 100px;
             background-position: 100px;
             background: url("./test.jpg") 0px 50px no-repeat fixed;
-        }*/
+        }
         .test {
             border: 1px solid green;
             margin: 40px;
@@ -51,14 +51,23 @@
         section {
             display: inline-block;
             width:300px;
-            border: 1px solid;
+            /*border: 1px solid;
             height: 200px;
             overflow: auto;
-
+            outline: thin dashed;
+            line-height: 100px;
+            max-height: 100px;
         }
         span {
             display: block;
             cursor: move;
+        }
+        .hide {
+            /*visibility: hidden;
+            display: none;
+        }
+        .visible {
+           visibility: hidden; 
         }
        /*
        .test
@@ -72,8 +81,82 @@
                 like mobile
                 tablet
                 desktop
+        rwd - responsive web design 
+        we have been created only one html and we are writting styles to display in different views
+        awd - adaptive web desing
+        we are getting diffetn html files for different screens  desktop 1.html mobile 2.html
         SEo - search engine optimization
         page ranking 
         bofa -
-
+        dom - document object model
        */
+
+       .test {
+           width: 300px;
+           height: 300px;
+           overflow: scroll;
+           border: 1px solid;
+           margin: 0 auto;
+           border-radius: 10px;
+           opacity: 0.5;
+           box-shadow: 5px 5px 2px red;
+       }
+       .shadow {
+           font-style: oblique;
+           font-size: 20px;
+           filter: drop-shadow(2px 3px 2px red);
+           /*position: fixed;
+           bottom:0;
+           right:0;*/
+           position: fixed;
+           top:10px;
+           right:0;
+           /*filter:Mask*/
+           /*text-shadow: 2px 2px 5px red, 3px 5px 2px blue;*/
+       }
+
+       .watermark {
+           position: fixed;
+           top:0;
+           left: 0;
+           z-index: 1;
+       }
+       section {
+           z-index:10;
+           position: relative;
+       }
+       /*.absolute {
+           position: relative;
+           top:10px;
+           right:0;
+       }*/
+/*
+static - it doesnt have position
+fixed - it will be fixed 
+*/
+       /*margin: 5px 10px 15px 20px;
+
+       margin-top: 5px;
+       margin-right: 10px;
+       margin-bottom: 15px;
+       margin-left: 20px
+
+       margin: 5px 10px 20px;
+
+       margin-top: 5px;
+       margin-right: 10px
+       margin-left: 10px;
+       margin-bottom: 20px;
+
+       margin: 5px 10px;
+        
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;*/
