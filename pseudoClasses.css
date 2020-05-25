@@ -1,0 +1,84 @@
+a:link{
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: aqua;
+}
+
+/*section:first-child {
+    color: red;
+}*/
+
+tr:nth-last-of-type(odd){
+    color: red;
+}
+tr:nth-last-of-type(even){
+    color: green;
+}
+
+/*section::first-letter{
+    color: red;
+}*/
+/*
+section::first-line{
+    color: #7315fe;
+}*/
+
+/*section::before {
+    content: "Add text before section"
+}
+
+
+section::after {
+    content: "End of the section"
+}*/
+
+section::selection {
+    color: red;
+    background-color: green;
+}
+
+.tooltip{
+    position: relative;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.tooltip .tooltipText{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    color: red;
+
+}
+/*
+descendant selector(space)
+child selector (>)
+adjacent sibiling selector (+)
+General sibiling selector ( ˜)
+*/
+.tooltip:hover .tooltipText{
+    visibility: visible;
+}
+
+/*div > p {
+    color: red;
+}*/
+/*
+div + p {
+    color: green;
+}*/
+
+div ~ p{
+    color: green;
+}
+
