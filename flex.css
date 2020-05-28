@@ -1,8 +1,9 @@
 .flex-container{
     display: flex;
     background-color: blue;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+    align-items: stretch;
+    /*flex-direction: row-reverse;
+    flex-wrap: wrap;*/
 }
 
 .flex-container div {

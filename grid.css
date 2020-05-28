@@ -1,0 +1,31 @@
+/*.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid: 50px;
+    padding: 10px;
+    background-color: blue;
+}
+
+.grid-container div {
+    padding:10px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid;
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}*/
+
+.grid-container {
+    color: red;
+}
+
+@media only screen and (max-width: 600px){
+    .grid-container {
+    color: blue;
+}
+}
