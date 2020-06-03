@@ -27,6 +27,9 @@
          * 66
          * 21-9+9+21+11+22-11
          * 64
+         * var result = a+b+++--b+a+++b
+         * 80
+         * 
          */
           // var a= false;
           // var b = true;
@@ -47,8 +50,10 @@
 
           //  a+=b;
           //  a= a+b;
+          // !((a >= 10) && (b < 20) && ((a >= 10) || (b < 20))) ? 'Hello' : 'world'
+          // 
            //ternary operator
-           console.log(a >= 10 ? 'Hello' : 'world');
+           //console.log(a >= 10 ? 'Hello' : 'world');
           
           //  console.log( a == b)
           //  console.log( a!= b);
@@ -57,7 +62,44 @@
         //     console.log(a+ a+(++b)+ b--+a+b);
         //   console.log(typeof "Hello");
         //   document.write(a);
-        //  console.log('Hello world');
+        //  console.log('Hello world'); 
+        // if((a%2) === 0 ){
+        //   a+=b;
+        //   b+=a;
+        //   console.log('true');
+        //   console.log(a);
+        //   console.log(b);
+        //   document.write(a+b);
+        // } else if(a < 10){
+        //   console.log('second loop');
+
+        // } else {
+        //   console.log('checking else loop');
+        // }
+        // var name = 'sajitha';
+        // switch(name){
+        //   case 'praveen': a+=2;
+        //       document.write(a);
+        //       break;
+        //   case 'veda': a+=5;
+        //       document.write(a);
+        //   case 'sajitha': a+=10;
+        //       document.write(a);
+        //   case 'yukta': a+=20;
+        //       document.write(a);
+        //       break;
+        //       default:
+        //        a+=15;
+        //       document.write(a);
+
+
+        // }
+        var a = ['praveen','veda','sajitha','yuktha'];
+        var i =0;
+        while(i < 4){
+          document.write(a[i]);
+          i++;
+        }
           function sayHello(){
               alert('Hello world');
           }
