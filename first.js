@@ -95,14 +95,82 @@
 
         // }
         var a = ['praveen','veda','sajitha','yuktha'];
-        var i =0;
-        while(i < 4){
-          document.write(a[i]);
-          i++;
-        }
+       // var i =0;
+        // while(i < 4){
+        //   document.write(a[i]);
+        //   i++;
+        // }
+        // functional scope - var will gives it 
+
           function sayHello(){
-              alert('Hello world');
+          //  var i;
+            //   alert('Hello world');
+            //   console.log(i);
+            //  var i = 5;
+           // console.log(i);
+            var num = 20;
+            for(var i=2;i<num;i++){
+              if(num % i == 0)
+                  break;
+            }
+            if( i == num)
+              console.log("it's prime");
+            else
+               console.log("not a prime");
+            // for(var i=0;i<4;i++){
+            //   if(i==2)
+            //     break;
+            // }
+            // console.log(i);//2
+            // for(var i=0;i<4;i++){
+            //   if(i == 2)
+            //    continue;
+            //   document.write(a[i]);
+            // }
+           // 10+20+"10"+20+10 //1020102010
+          //  30+"10"+20+10
+          //  "3010"+20+10
+           // console.log(i);
           }
+          function add(){
+            var firstNumber = document.getElementById("firstNumber").value;
+            var secondNumber = document.getElementById("secondNumber").value;
+            document.getElementById("result").value = parseInt(firstNumber)+parseInt(secondNumber);
+           document.getElementById("display").innerHTML = "<span>the result</span>";
+             document.getElementById("display").style.color = "red";
+             //document.write("the result")
+          }
+          var a = 10;
+          switch(a){
+            case 5: console.log(a);
+            break;
+            case 10: a+=5;
+        //  document.getElementById("result").value = a;
+            console.log(a);
+            case 15: a+=5;
+            console.log(a);
+            break;
+            default:
+            console.log(a);
+          }
+          /**
+           * in javascript engine
+           * function sayHello(){
+           *  var i;
+           * alert('Hello world');
+           * i = 5;
+           * }
+           */
+          // while(0){
+          //   console.log('test');
+          // }
+          // do {
+          //    document.write(a[i]);
+          // i++;
+          // }while(i < 0);
+          // for(var i=0;i<4;i++){
+          //      document.write(a[i]);
+          // }
 
           /**
            * Numbers: 1,2,3,

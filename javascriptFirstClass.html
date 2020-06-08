@@ -3,7 +3,25 @@
     <head>
         </head>
     <body>
+
+        <input type="text" id="firstNumber" onchange="changeEventTriggered(event)" onfocus="focusEventTrigger(event)" onblur="blurEventTrigger(event)" placeholder="enter first number"/>
+        <form onsubmit="validations(event)">
+        <input type="text" id="secondNumber" placeholder="enter second number"/>
+        <input type="text" id="result" placeholder=""/>
+        <input type="submit"/>
+        </form>
+        <button onclick="add()">Add</button><br/>
+        <div id="display"></div>
+        <div onmouseover="over()" onmouseout="out()" style="display: inline-block;width:100px;height: 100px;border:1px solid;">
+            Mouse events
+        </div>
+        <select  onchange="changeEventTriggered(event)">
+            <option>Cricket</option>
+            <option>carroms</option>
+            <option>Volleyball</option>
+        </select>
         <button onclick="sayHello()"> Hello</button>
+        <script src="./events.js" type="text/javascript"></script>
         <script src="./first.js" type="text/javascript"></script>
     </body>
 </html>
