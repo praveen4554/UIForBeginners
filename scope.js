@@ -30,3 +30,28 @@ test();
 
 // a = 20;
 // b = 10
+
+// substr(index,length)
+// substring(start,end)
+//slice(start,end) -- we can pass negative values
+//length
+//charAt
+//charCodeAt()
+//endsWith()
+//startsWith()
+//indexOf()
+//lastIndexOf()
+//trim()
+//replace()
+//repeat
+//toString
+//toUpperCase
+//toLowerCase
+//concatation '+''
+//split
+
+// in a paragraph we have replaced a particular character or word
+// how many characters in a particular string ex: i/p string:praveen repeatcharacter='e' o/p- 2
+// repeat a substring in a given string i/p praveen repeat ee o/p praveeeen
+
+
