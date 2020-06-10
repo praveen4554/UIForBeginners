@@ -132,27 +132,27 @@
           //  "3010"+20+10
            // console.log(i);
           }
-          function add(){
-            var firstNumber = document.getElementById("firstNumber").value;
-            var secondNumber = document.getElementById("secondNumber").value;
-            document.getElementById("result").value = parseInt(firstNumber)+parseInt(secondNumber);
-           document.getElementById("display").innerHTML = "<span>the result</span>";
-             document.getElementById("display").style.color = "red";
-             //document.write("the result")
-          }
-          var a = 10;
-          switch(a){
-            case 5: console.log(a);
-            break;
-            case 10: a+=5;
-        //  document.getElementById("result").value = a;
-            console.log(a);
-            case 15: a+=5;
-            console.log(a);
-            break;
-            default:
-            console.log(a);
-          }
+        //   function add(){
+        //     var firstNumber = document.getElementById("firstNumber").value;
+        //     var secondNumber = document.getElementById("secondNumber").value;
+        //     document.getElementById("result").value = parseInt(firstNumber)+parseInt(secondNumber);
+        //    document.getElementById("display").innerHTML = "<span>the result</span>";
+        //      document.getElementById("display").style.color = "red";
+        //      //document.write("the result")
+        //   }
+        //   var a = 10;
+        //   switch(a){
+        //     case 5: console.log(a);
+        //     break;
+        //     case 10: a+=5;
+        // //  document.getElementById("result").value = a;
+        //     console.log(a);
+        //     case 15: a+=5;
+        //     console.log(a);
+        //     break;
+        //     default:
+        //     console.log(a);
+        //   }
           /**
            * in javascript engine
            * function sayHello(){
