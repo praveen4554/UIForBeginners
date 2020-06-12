@@ -55,3 +55,41 @@ test();
 // repeat a substring in a given string i/p praveen repeat ee o/p praveeeen
 
 
+/**
+ * Math.PI
+ * Math.round
+ * Math.ceil
+ * Math.floor
+ * Math.random
+ * Math.sin
+ * Math.cos
+ * Math.pow
+ * Math.sqrt
+ * Math.abs
+ * Math.min
+ * Math.max
+ * new Date()
+ * new Date().getYear
+ * new Date().getFullYear
+ * new Date().getDay
+ * new Date().getDate
+ * new Date().getMonth
+ * new Date().getHours
+ * new Date().getMinutes
+ * new Date().getSeconds
+ * new Date().getMilliSeconds
+ * new Date().setFullYear
+ * new Date().setDate
+ * new Date().setMonth
+ * Arr.length
+ * Arr.push
+ * Arr.pop
+ * Arr.shift
+ * Arr.unshift
+ * Arr.slice
+ * Arr.splice
+ * Arr.toString
+ * Arr.join
+ * Arr.reverse
+ * 
+ */
