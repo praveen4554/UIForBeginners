@@ -18,7 +18,23 @@ function test(){
 test();
  console.log(a);
 
+function armStrong(num){
+    //num = 371
+    var n = num.toString().length; //3
+    var result = 0;
+    while(num > 0 ){
+        var rem = num %10; //1 7 3
+        result+=Math.pow(rem,n); //1 243 27
+        num = Math.floor(num/10); //37 //3 0
+    }
+    console.log(result);
+}
+var obj = {
+    a: 10,
+    b: 'praveen'
+};
 
+armStrong(153);
 // var a;
 // function test(){
 //     console.log(a); //10 undefined 10
