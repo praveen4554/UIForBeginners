@@ -33,7 +33,11 @@ var obj = {
     a: 10,
     b: 'praveen'
 };
-
+console.log(0.3+0.4 === 0.7)
+// 1 == true  // true  0.700000000001
+// 1 === true // false
+// 0.3+0.4 == 0.7 // false
+// Math.floor Math.ceil 2 - 3
 armStrong(153);
 // var a;
 // function test(){
@@ -108,4 +112,26 @@ armStrong(153);
  * Arr.join
  * Arr.reverse
  * 
+ * 
+ * shallow copy - obj1 and we are copieng obj1 into obj2 an
+ * deep copy - obj1 and we are coping obj1 into obj2 and we are creating another moery address
+ * OBJect.assign(target,source)
+ * target - obj{id:1,firstName:'praveen'}
+ * source - obj1 {id:3,lastName:'kumar'}
+ * result - {id: 3,firstName: 'praveen', lastName: 'kumar'}
+ * inheritance
+ * 
+ * person - 2 objects 1.obj 2.obj1
+ * i want to add new property that should belogns to obj only not for obj1
+ * person.fullNmae - obj and obj1
+ * obj has fullName
+ * obj1
+ * 
+ * seal - 
+ * freeze - 
+ * isNaN - true - false
+ * 1+1+'1'+1+1 - 2+NaN 2111
+ * [10,20,30].sum();
+ * DOM - document object Model
+ * document.getElementBy("Id")
  */
