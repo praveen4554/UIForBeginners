@@ -36,6 +36,15 @@ function changeColor() {
 /**
  * 1. add we need to create button name called test and we are appended to body
  * 2. i need to check whether we have a button name called test 
+ * steps
+ * 1. we need to create a new button
+ * 2. we need to add a class 
+ * 3. we need to add a click event
+ * 4. we need to append to the body
+ * 5. we need to check whether we have button class has test is exist or not
+ * 6. if it is exist dont add 
+ * 7. we need to find button using querySelctor or querySelctorAll
+ * 8. we need to call remove
  */
 function add(){
     var buttons = document.getElementsByTagName("BUTTON");
@@ -76,8 +85,8 @@ function remove(){
 
 /**
  * 1. document.getElementById - single node
- * 2. document.getElementByClassName - Array of nodes
- * 3. document.getElementByTagName - Array of nodes
- * 4. document.querySelector - single of node
- * 5. document.querySelectorAll - Array of nodes
+ * 2. document.getElementByClassName - Array of nodes []
+ * 3. document.getElementByTagName - Array of nodes []
+ * 4. document.querySelector - single of node null
+ * 5. document.querySelectorAll - Array of nodes []
  */
