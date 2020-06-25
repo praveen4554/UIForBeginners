@@ -173,6 +173,9 @@ var a = [1,2,3,4,5];
         console.log(i);
         },1000);
     }
+
+
+    
     /**
      * var will be functional scope
      * var i=0 - it will calls the setTimeout 4
