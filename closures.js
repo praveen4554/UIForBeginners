@@ -111,7 +111,7 @@ function getData(){
     xhttp.open("GET","https://jsonplaceholder.typicode.com/todos/1",true);
     xhttp.send();
 }
-getData();
+//getData();
 /**
  * AJAX - asychronous javascript and html
  * ready state which will contains the values
